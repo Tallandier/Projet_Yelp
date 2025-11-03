@@ -1,0 +1,27 @@
+# Ignorer les fichiers compilés
+*.class
+*.o
+*.so
+
+# Ignorer les fichiers temporaires
+*.tmp
+*.swp
+
+# Ignorer les dossiers spécifiques
+node_modules/
+dist/
+build/
+dataset/
+.metals/
+.vscode/
+lib/
+project/
+target/
+.bloop/
+projetYelpNotes
+build.sbt
+data_analysis.ipynb
+scala-2.13.1.deb
+
+# Ignorer les fichiers sensibles
+.env
